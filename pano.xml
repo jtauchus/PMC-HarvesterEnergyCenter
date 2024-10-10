@@ -56,7 +56,7 @@
       <hotspot title="" skinid="ht_node" pan="-30.4026" id="Point04" description="" url="{node10}" target="$fwd" tilt="0"/>
     </hotspots>
     <media>
-      <image pan="19.352" width="779" hidepinned="0" stretch="0.950" rotx="8.108" popbackmode="0" fov="29.826" handcursor="0" id="Element01" height="686" rotz="3.484" popoutscaling="100" roty="-16.989" clickmode="0" tilt="15.080">
+      <image pan="45.132" width="779" hidepinned="0" stretch="0.941" rotx="-3.275" popbackmode="0" fov="31.022" handcursor="0" id="Element01" height="686" rotz="0.696" popoutscaling="100" roty="8.296" clickmode="0" tilt="4.677">
         <source url="media/Steam Boiler.png"/>
       </image>
     </media>
