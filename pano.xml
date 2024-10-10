@@ -55,7 +55,11 @@
       <hotspot title="" skinid="ht_node" pan="2.06011" id="Point03" description="" url="{node11}" target="$fwd" tilt="0"/>
       <hotspot title="" skinid="ht_node" pan="-30.4026" id="Point04" description="" url="{node10}" target="$fwd" tilt="0"/>
     </hotspots>
-    <media/>
+    <media>
+      <image pan="19.352" width="779" hidepinned="0" stretch="0.950" rotx="8.108" popbackmode="0" fov="29.826" handcursor="0" id="Element01" height="686" rotz="3.484" popoutscaling="100" roty="-16.989" clickmode="0" tilt="15.080">
+        <source url="media/Steam Boiler.png"/>
+      </image>
+    </media>
     <transition zoomfov="40" delay="none" zoomafterinfov="140" zoomin="0" softedge="0" type="crossdissolve" zoomout="0" blendtime="1" zoomspeed="2" enabled="1" zoomafteroutfov="40" blendcolor="0x000000" zoomoutpause="1"/>
     <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
     <control sensitivity="8" lockedkeyboard="0" speedwheel="1" contextprojections="0" hideabout="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" rubberband="0" contextvr="1" zoomcentercursor="1" invertwheel="0" lockedwheel="0" contextfullscreen="1" simulatemass="1"/>
