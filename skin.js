@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.4/20938
 // Filename: Energy Center.ggsk
-// Generated 2024-10-09T23:53:08
+// Generated 2024-10-10T00:09:50
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -148,7 +148,7 @@ function pano2vrSkin(player,base) {
 		el.ggMapNotLoaded = true;
 		el.ggMapId = 'FloorPlan01';
 		el.ggId="Map 1";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1.2,sy:1.2,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_map ";
 		el.ggType='map';
@@ -164,6 +164,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
+		el.style.transform=parameterToTransform(el.ggParameter);
 		me._map_1.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
