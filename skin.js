@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
-// Pano2VR 7.1.4/20938
+// Pano2VR 7.1.5/20954
 // Filename: Energy Center.ggsk
-// Generated 2024-10-10T00:34:09
+// Generated 2024-11-07T13:17:50
 
 function pano2vrSkin(player,base) {
 	var me=this;
