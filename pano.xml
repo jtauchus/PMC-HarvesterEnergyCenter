@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour hassounds="0" appversion="7.1.5" start="node14" apprev="20954">
+<tour hassounds="1" appversion="7.1.5" start="node15" apprev="20954">
   <panorama id="node8">
     <input overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1536" leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" levelingpitch="0" height="1536" levelbias="0.400">
       <level preload="0" width="1536" predecode="0" height="1536"/>
@@ -13,9 +13,7 @@
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360" fov="140" pan="360"/>
     </view>
-    <userdata nodeid="node8" title="" comment="" author="" longitude="" info="" latitude="" heading="-94.7906" customnodeid="" copyright="" datetime="" source="" description="" tags="Pano">
-      <mapcoords mapid="FloorPlan01" y="-1.04645" x_floorplan_percent="60.1246" x="0.53009" y_floorplan_percent="56.9507"/>
-    </userdata>
+    <userdata nodeid="node8" title="" comment="" author="" longitude="" info="" latitude="" heading="-94.7906" customnodeid="" copyright="" datetime="" source="" description="" tags="Pano"/>
     <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
       <label borderalpha="1" textalpha="1" width="180" enabled="1" textcolor="0x000000" background="1" wordwrap="1" backgroundcolor="0xffffff" border="1" bordercolor="0x000000" height="20" backgroundalpha="1" borderradius="1"/>
       <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
@@ -42,9 +40,7 @@
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360" fov="140" pan="360"/>
     </view>
-    <userdata nodeid="node9" title="" comment="" author="" longitude="" info="" latitude="" heading="-29.8569" customnodeid="" copyright="" datetime="" source="" description="" tags="Pano">
-      <mapcoords mapid="FloorPlan01" y="-0.758057" x_floorplan_percent="58.567" x="0.516357" y_floorplan_percent="41.2556"/>
-    </userdata>
+    <userdata nodeid="node9" title="" comment="" author="" longitude="" info="" latitude="" heading="-29.8569" customnodeid="" copyright="" datetime="" source="" description="" tags="Pano"/>
     <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
       <label borderalpha="1" textalpha="1" width="180" enabled="1" textcolor="0x000000" background="1" wordwrap="1" backgroundcolor="0xffffff" border="1" bordercolor="0x000000" height="20" backgroundalpha="1" borderradius="1"/>
       <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
@@ -71,9 +67,7 @@
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360" fov="140" pan="360"/>
     </view>
-    <userdata nodeid="node10" title="" comment="" author="" longitude="" info="" latitude="" heading="-124.831" customnodeid="" copyright="" datetime="" source="" description="" tags="Pano">
-      <mapcoords mapid="FloorPlan01" y="-0.181274" x_floorplan_percent="59.19" x="0.521851" y_floorplan_percent="9.86547"/>
-    </userdata>
+    <userdata nodeid="node10" title="" comment="" author="" longitude="" info="" latitude="" heading="-124.831" customnodeid="" copyright="" datetime="" source="" description="" tags="Pano"/>
     <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
       <label borderalpha="1" textalpha="1" width="180" enabled="1" textcolor="0x000000" background="1" wordwrap="1" backgroundcolor="0xffffff" border="1" bordercolor="0x000000" height="20" backgroundalpha="1" borderradius="1"/>
       <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
@@ -98,9 +92,7 @@
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360" fov="140" pan="360"/>
     </view>
-    <userdata nodeid="node11" title="" comment="" author="" longitude="" info="" latitude="" heading="-178.822" customnodeid="" copyright="" datetime="" source="" description="" tags="Pano">
-      <mapcoords mapid="FloorPlan01" y="-0.277405" x_floorplan_percent="24.6106" x="0.21698" y_floorplan_percent="15.0972"/>
-    </userdata>
+    <userdata nodeid="node11" title="" comment="" author="" longitude="" info="" latitude="" heading="-178.822" customnodeid="" copyright="" datetime="" source="" description="" tags="Pano"/>
     <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
       <label borderalpha="1" textalpha="1" width="180" enabled="1" textcolor="0x000000" background="1" wordwrap="1" backgroundcolor="0xffffff" border="1" bordercolor="0x000000" height="20" backgroundalpha="1" borderradius="1"/>
       <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
@@ -125,9 +117,7 @@
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360" fov="140" pan="360"/>
     </view>
-    <userdata nodeid="node12" title="" comment="" author="" longitude="" info="" latitude="" heading="-208.988" customnodeid="" copyright="" datetime="" source="" description="" tags="Pano">
-      <mapcoords mapid="FloorPlan01" y="-0.98053" x_floorplan_percent="23.3645" x="0.205994" y_floorplan_percent="53.3632"/>
-    </userdata>
+    <userdata nodeid="node12" title="" comment="" author="" longitude="" info="" latitude="" heading="-208.988" customnodeid="" copyright="" datetime="" source="" description="" tags="Pano"/>
     <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
       <label borderalpha="1" textalpha="1" width="180" enabled="1" textcolor="0x000000" background="1" wordwrap="1" backgroundcolor="0xffffff" border="1" bordercolor="0x000000" height="20" backgroundalpha="1" borderradius="1"/>
       <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
@@ -153,9 +143,7 @@
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360" fov="140" pan="360"/>
     </view>
-    <userdata nodeid="node13" title="" comment="" author="" longitude="" info="" latitude="" heading="26.7051" customnodeid="" copyright="" datetime="" source="" description="" tags="Pano">
-      <mapcoords mapid="FloorPlan01" y="-1.65894" x_floorplan_percent="19.3146" x="0.170288" y_floorplan_percent="90.284"/>
-    </userdata>
+    <userdata nodeid="node13" title="" comment="" author="" longitude="" info="" latitude="" heading="26.7051" customnodeid="" copyright="" datetime="" source="" description="" tags="Pano"/>
     <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
       <label borderalpha="1" textalpha="1" width="180" enabled="1" textcolor="0x000000" background="1" wordwrap="1" backgroundcolor="0xffffff" border="1" bordercolor="0x000000" height="20" backgroundalpha="1" borderradius="1"/>
       <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
@@ -181,17 +169,13 @@
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360" fov="140" pan="360"/>
     </view>
-    <userdata nodeid="node14" title="" comment="" author="" longitude="" info="" latitude="" heading="18.041" customnodeid="" copyright="" datetime="" source="" description="" tags="Pano">
-      <mapcoords mapid="FloorPlan01" y="-1.54633" x_floorplan_percent="65.109" x="0.574036" y_floorplan_percent="84.1555"/>
-    </userdata>
+    <userdata nodeid="node14" title="" comment="" author="" longitude="" info="" latitude="" heading="18.041" customnodeid="" copyright="" datetime="" source="" description="" tags="Pano"/>
     <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
       <label borderalpha="1" textalpha="1" width="180" enabled="1" textcolor="0x000000" background="1" wordwrap="1" backgroundcolor="0xffffff" border="1" bordercolor="0x000000" height="20" backgroundalpha="1" borderradius="1"/>
       <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
       <hotspot title="" url="{node13}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point01" pan="123.625"/>
-      <hotspot title="" url="{node8}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point02" pan="23.0651"/>
-      <polyhotspot title="This is an overlayed &quot;Point-Cloud&quot;.  Click here to see it without the 3D models" url="{node15}" borderalpha="1" target="" id="Poly01" backgroundcolor="0x0000ff" bordercolor="0x0000ff" description="" backgroundalpha="0.25098">
-        <polystring>-348.64/-15.32|-342.83/-15.47|-335.69/-16.46|-332.02/-20.35|-333.87/-23.1|-344.66/-22.63|-354.93/-20.6|-353.31/-17.01|-350.45/-15.62|-350.22/-15.61</polystring>
-      </polyhotspot>
+      <hotspot title="Outside the office" url="{node8}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point02" pan="23.07"/>
+      <hotspot title="Turn off the model" url="{node15}" skinid="ht_node" tilt="-19.46" target="" description="" id="Point03" pan="-342.37"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="40" enabled="1" zoomafterinfov="140" zoomin="0" type="crossdissolve" delay="none" zoomout="0" blendtime="1" zoomafteroutfov="40" softedge="0" blendcolor="0x000000"/>
@@ -215,11 +199,13 @@
     <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
       <label borderalpha="1" textalpha="1" width="180" enabled="1" textcolor="0x000000" background="1" wordwrap="1" backgroundcolor="0xffffff" border="1" bordercolor="0x000000" height="20" backgroundalpha="1" borderradius="1"/>
       <polystyle mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098"/>
-      <polyhotspot title="Turn the models back off" url="{node14}" borderalpha="1" target="" id="Poly01" backgroundcolor="0x170fff" bordercolor="0x3737ff" description="" backgroundalpha="0.25098">
-        <polystring>-345.89/-18.76|-337.6/-19.03|-333.38/-22.65|-336.4/-26.57|-345.9/-27.3|-353.32/-25.51|-353.69/-21.94|-352.31/-19.94|-348.09/-18.66|-347.97/-18.43</polystring>
-      </polyhotspot>
+      <hotspot title="Turn on the Model" url="{node14}" skinid="ht_node" tilt="-23.62" target="" description="" id="Point01" pan="-339.28"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound pan="-22.780" mode="2" tilt="6.630" startmutedmobile="0" id="Element01" tiltsize="10.000" field="90.000" nodechangekeep="1" level="1.000" ambientlevel="0.000" loop="1" pansize="10.000">
+        <source url="media/Scene 1 Narration.wav" mono="1"/>
+      </sound>
+    </media>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="40" enabled="1" zoomafterinfov="140" zoomin="0" type="crossdissolve" delay="none" zoomout="0" blendtime="1" zoomafteroutfov="40" softedge="0" blendcolor="0x000000"/>
     <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control sensitivity="8" rubberband="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedkeyboardzoom="0" contextvr="1" speedwheel="1" contextprojections="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" contextfullscreen="1" dblclickfullscreen="0" hideabout="0" zoomcentercursor="1"/>
@@ -230,5 +216,4 @@
       <sequence title="Animation01"/>
     </animationsequences>
   </masternode>
-  <map title="" width="321" zoomlevels="3" crispedges="0" id="FloorPlan01" bgcolor="rgba(255, 255, 255, 1)" transparent="0" type="file" index="0" tileformat="png" floorplannorth="0" height="669"/>
 </tour>
