@@ -23,7 +23,7 @@
       <hotspot title="" url="{node9}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point04" pan="-92.0643"/>
     </hotspots>
     <media>
-      <video mode="3" startmutedmobile="0" fov="30.000" id="Element01" field="90.000" nodechangekeep="0" rotz="0.000" stretch="1.000" popoutscaling="100" loop="1" clickmode="0" popbackmode="0" width="1920" tilt="5.490" handcursor="0" rotx="0.000" hidepinned="0" roty="0.000" tiltsize="10.000" level="1.000" ambientlevel="0.000" height="1080" pansize="10.000" pan="-116.410">
+      <video mode="3" startmutedmobile="0" fov="39.360" id="Element01" field="90.000" nodechangekeep="0" rotz="-0.110" stretch="1.052" popoutscaling="100" loop="1" clickmode="4" popbackmode="1" width="1920" tilt="5.040" handcursor="1" rotx="-4.910" hidepinned="0" roty="-5.250" tiltsize="10.000" level="1.000" ambientlevel="0.000" height="1080" pansize="10.000" pan="-118.860">
         <source url="media/PMC MEP modeling.mp4"/>
       </video>
       <sound mode="7" keep="1" url="media/skin_snd_Scene 1 Narration.mp3" level="1.000" id="Scene 1 Narration" loop="-1"/>
@@ -55,6 +55,9 @@
       <hotspot title="" url="{node10}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point04" pan="-30.4026"/>
     </hotspots>
     <media>
+      <video mode="3" startmutedmobile="0" fov="30.000" id="Element01" field="90.000" nodechangekeep="0" rotz="0.000" stretch="1.000" popoutscaling="100" loop="1" clickmode="4" popbackmode="1" width="1920" tilt="2.230" handcursor="1" rotx="0.000" hidepinned="0" roty="0.000" tiltsize="10.000" level="1.000" ambientlevel="0.000" height="1080" pansize="10.000" pan="-65.220">
+        <source url="media/Energy Center Digital Twin Data.mp4"/>
+      </video>
       <sound mode="7" keep="1" url="media/skin_snd_Scene 1 Narration.mp3" level="1.000" id="Scene 1 Narration" loop="-1"/>
     </media>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="40" enabled="1" zoomafterinfov="140" zoomin="0" type="crossdissolve" delay="none" zoomout="0" blendtime="1" zoomafteroutfov="40" softedge="0" blendcolor="0x000000"/>
