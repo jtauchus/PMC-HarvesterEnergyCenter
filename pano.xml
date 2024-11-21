@@ -22,7 +22,12 @@
       <hotspot title="" url="{node14}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point03" pan="-269.767"/>
       <hotspot title="" url="{node9}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point04" pan="-92.0643"/>
     </hotspots>
-    <media/>
+    <media>
+      <video mode="3" startmutedmobile="0" fov="30.000" id="Element01" field="90.000" nodechangekeep="0" rotz="0.000" stretch="1.000" popoutscaling="100" loop="1" clickmode="0" popbackmode="0" width="1920" tilt="5.490" handcursor="0" rotx="0.000" hidepinned="0" roty="0.000" tiltsize="10.000" level="1.000" ambientlevel="0.000" height="1080" pansize="10.000" pan="-116.410">
+        <source url="media/PMC MEP modeling.mp4"/>
+      </video>
+      <sound mode="7" keep="1" url="media/skin_snd_Scene 1 Narration.mp3" level="1.000" id="Scene 1 Narration" loop="-1"/>
+    </media>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="40" enabled="1" zoomafterinfov="140" zoomin="0" type="crossdissolve" delay="none" zoomout="0" blendtime="1" zoomafteroutfov="40" softedge="0" blendcolor="0x000000"/>
     <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control sensitivity="8" rubberband="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedkeyboardzoom="0" contextvr="1" speedwheel="1" contextprojections="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" contextfullscreen="1" dblclickfullscreen="0" hideabout="0" zoomcentercursor="1"/>
@@ -49,7 +54,9 @@
       <hotspot title="" url="{node11}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point03" pan="2.06011"/>
       <hotspot title="" url="{node10}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point04" pan="-30.4026"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound mode="7" keep="1" url="media/skin_snd_Scene 1 Narration.mp3" level="1.000" id="Scene 1 Narration" loop="-1"/>
+    </media>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="40" enabled="1" zoomafterinfov="140" zoomin="0" type="crossdissolve" delay="none" zoomout="0" blendtime="1" zoomafteroutfov="40" softedge="0" blendcolor="0x000000"/>
     <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control sensitivity="8" rubberband="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedkeyboardzoom="0" contextvr="1" speedwheel="1" contextprojections="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" contextfullscreen="1" dblclickfullscreen="0" hideabout="0" zoomcentercursor="1"/>
@@ -74,7 +81,9 @@
       <hotspot title="" url="{node9}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point01" pan="54.6233"/>
       <hotspot title="" url="{node11}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point02" pan="-17.3301"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound mode="7" keep="1" url="media/skin_snd_Scene 1 Narration.mp3" level="1.000" id="Scene 1 Narration" loop="-1"/>
+    </media>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="40" enabled="1" zoomafterinfov="140" zoomin="0" type="crossdissolve" delay="none" zoomout="0" blendtime="1" zoomafteroutfov="40" softedge="0" blendcolor="0x000000"/>
     <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control sensitivity="8" rubberband="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedkeyboardzoom="0" contextvr="1" speedwheel="1" contextprojections="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" contextfullscreen="1" dblclickfullscreen="0" hideabout="0" zoomcentercursor="1"/>
@@ -99,7 +108,9 @@
       <hotspot title="" url="{node9}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point01" pan="-326.905"/>
       <hotspot title="" url="{node10}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point02" pan="-251.321"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound mode="7" keep="1" url="media/skin_snd_Scene 1 Narration.mp3" level="1.000" id="Scene 1 Narration" loop="-1"/>
+    </media>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="40" enabled="1" zoomafterinfov="140" zoomin="0" type="crossdissolve" delay="none" zoomout="0" blendtime="1" zoomafteroutfov="40" softedge="0" blendcolor="0x000000"/>
     <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control sensitivity="8" rubberband="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedkeyboardzoom="0" contextvr="1" speedwheel="1" contextprojections="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" contextfullscreen="1" dblclickfullscreen="0" hideabout="0" zoomcentercursor="1"/>
@@ -125,7 +136,9 @@
       <hotspot title="" url="{node8}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point02" pan="-310.485"/>
       <hotspot title="" url="{node9}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point03" pan="-263.355"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound mode="7" keep="1" url="media/skin_snd_Scene 1 Narration.mp3" level="1.000" id="Scene 1 Narration" loop="-1"/>
+    </media>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="40" enabled="1" zoomafterinfov="140" zoomin="0" type="crossdissolve" delay="none" zoomout="0" blendtime="1" zoomafteroutfov="40" softedge="0" blendcolor="0x000000"/>
     <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control sensitivity="8" rubberband="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedkeyboardzoom="0" contextvr="1" speedwheel="1" contextprojections="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" contextfullscreen="1" dblclickfullscreen="0" hideabout="0" zoomcentercursor="1"/>
@@ -151,7 +164,9 @@
       <hotspot title="" url="{node8}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point02" pan="-3.72675"/>
       <hotspot title="" url="{node12}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point03" pan="23.6923"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound mode="7" keep="1" url="media/skin_snd_Scene 1 Narration.mp3" level="1.000" id="Scene 1 Narration" loop="-1"/>
+    </media>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="40" enabled="1" zoomafterinfov="140" zoomin="0" type="crossdissolve" delay="none" zoomout="0" blendtime="1" zoomafteroutfov="40" softedge="0" blendcolor="0x000000"/>
     <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control sensitivity="8" rubberband="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedkeyboardzoom="0" contextvr="1" speedwheel="1" contextprojections="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" contextfullscreen="1" dblclickfullscreen="0" hideabout="0" zoomcentercursor="1"/>
@@ -177,7 +192,9 @@
       <hotspot title="Outside the office" url="{node8}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point02" pan="23.07"/>
       <hotspot title="Turn off the model" url="{node15}" skinid="ht_node" tilt="-19.46" target="" description="" id="Point03" pan="-342.37"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound mode="7" keep="1" url="media/skin_snd_Scene 1 Narration.mp3" level="1.000" id="Scene 1 Narration" loop="-1"/>
+    </media>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="40" enabled="1" zoomafterinfov="140" zoomin="0" type="crossdissolve" delay="none" zoomout="0" blendtime="1" zoomafteroutfov="40" softedge="0" blendcolor="0x000000"/>
     <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control sensitivity="8" rubberband="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedkeyboardzoom="0" contextvr="1" speedwheel="1" contextprojections="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" contextfullscreen="1" dblclickfullscreen="0" hideabout="0" zoomcentercursor="1"/>
@@ -202,9 +219,7 @@
       <hotspot title="Turn on the Model" url="{node14}" skinid="ht_node" tilt="-23.62" target="" description="" id="Point01" pan="-339.28"/>
     </hotspots>
     <media>
-      <sound pan="-22.780" mode="2" tilt="6.630" startmutedmobile="0" id="Element01" tiltsize="10.000" field="90.000" nodechangekeep="1" level="1.000" ambientlevel="0.000" loop="1" pansize="10.000">
-        <source url="media/Scene 1 Narration.wav" mono="1"/>
-      </sound>
+      <sound mode="7" keep="1" url="media/skin_snd_Scene 1 Narration.mp3" level="1.000" id="Scene 1 Narration" loop="-1"/>
     </media>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="40" enabled="1" zoomafterinfov="140" zoomin="0" type="crossdissolve" delay="none" zoomout="0" blendtime="1" zoomafteroutfov="40" softedge="0" blendcolor="0x000000"/>
     <animation useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01"/>
