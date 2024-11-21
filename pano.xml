@@ -85,6 +85,9 @@
       <hotspot title="" url="{node11}" skinid="ht_node" tilt="0" target="$fwd" description="" id="Point02" pan="-17.3301"/>
     </hotspots>
     <media>
+      <image clickmode="0" popbackmode="0" width="1050" tilt="1.040" handcursor="0" fov="63.094" rotx="0.790" id="Element01" roty="-4.695" hidepinned="0" rotz="0.163" stretch="0.996" height="776" popoutscaling="100" pan="-138.014">
+        <source url="media/msedge_xJ9T3Gjkmu.png"/>
+      </image>
       <sound mode="7" keep="1" url="media/skin_snd_Scene 1 Narration.mp3" level="1.000" id="Scene 1 Narration" loop="-1"/>
     </media>
     <transition zoomoutpause="1" zoomspeed="2" zoomfov="40" enabled="1" zoomafterinfov="140" zoomin="0" type="crossdissolve" delay="none" zoomout="0" blendtime="1" zoomafteroutfov="40" softedge="0" blendcolor="0x000000"/>
