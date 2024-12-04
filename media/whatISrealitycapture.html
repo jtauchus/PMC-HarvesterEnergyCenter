@@ -44,47 +44,62 @@
             width: 100%;
             margin: 10px 0;
         }
-        /* Subtitles Styling */
-        ::cue {
-            color: #333;
-            background: #f9f9f9;
-            padding: 5px;
+        /* Subtitles Box Styling */
+        #subtitles {
+            margin-top: 10px;
             font-size: 14px;
             font-family: Arial, sans-serif;
-            text-align: center;
+            color: #333;
+            background: #f9f9f9;
+            padding: 8px;
             border-radius: 5px;
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            text-align: center;
+            width: 100%;
         }
     </style>
 </head>
 <body>
     <div class="audio-player">
         <h2>PMC Tech: What is a Point Cloud? Click Play...</h2>
-        <audio id="audio" src="https://jtauchus.github.io/PMC-HarvesterEnergyCenter/media/Scene%201%20Narration.wav" controls>
-            <track 
-                src="https://jtauchus.github.io/PMC-HarvesterEnergyCenter/media/scene1-narration.vtt" 
-                kind="subtitles" 
-                srclang="en" 
-                label="English" 
-                default>
-        </audio>
+        <audio id="audio" src="https://jtauchus.github.io/PMC-HarvesterEnergyCenter/media/Scene%201%20Narration.wav" controls></audio>
         <div>
             <label for="volume-control">Volume:</label>
             <input type="range" id="volume-control" min="0" max="1" step="0.1" value="0.5">
         </div>
+        <div id="subtitles"></div>
     </div>
 
     <script>
+        // Subtitles Data
+        const subtitles = [
+            { start: 0, end: 2, text: "You are looking at a point cloud created with Reality Capture." },
+            { start: 2, end: 5, text: "This technology collects precise spatial data from a facility." },
+            { start: 5, end: 8, text: "The point cloud forms the foundation for creating a BIM model." },
+            { start: 8, end: 11, text: "Click the hotspot to see how the scan transforms into a 3D design." }
+        ];
+
         const audio = document.getElementById('audio');
-        const track = audio.textTracks[0];
+        const subtitlesDiv = document.getElementById('subtitles');
         const volumeControl = document.getElementById('volume-control');
 
-        // Enable subtitles explicitly
-        track.mode = 'showing';
+        // Update subtitles dynamically based on audio playback time
+        audio.addEventListener('timeupdate', () => {
+            const currentTime = audio.currentTime;
+            const currentSubtitle = subtitles.find(sub => currentTime >= sub.start && currentTime <= sub.end);
+            subtitlesDiv.textContent = currentSubtitle ? currentSubtitle.text : '';
+        });
 
         // Adjust volume
         volumeControl.addEventListener('input', (event) => {
             audio.volume = event.target.value;
+        });
+
+        // Disable playback speed options (by removing default controls)
+        audio.addEventListener('loadedmetadata', () => {
+            // Ensure any custom browser playback speed options are suppressed
+            audio.controlsList = 'nodownload noplaybackrate';
         });
     </script>
 </body>
