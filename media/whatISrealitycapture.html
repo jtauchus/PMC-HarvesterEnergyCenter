@@ -20,7 +20,7 @@
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             text-align: center;
-            width: 300px;
+            width: 400px;
         }
         .audio-player h2 {
             font-size: 18px;
@@ -44,6 +44,17 @@
             width: 100%;
             margin: 10px 0;
         }
+        /* Subtitles Styling */
+        ::cue {
+            color: #333;
+            background: #f9f9f9;
+            padding: 5px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 <body>
@@ -65,7 +76,11 @@
 
     <script>
         const audio = document.getElementById('audio');
+        const track = audio.textTracks[0];
         const volumeControl = document.getElementById('volume-control');
+
+        // Enable subtitles explicitly
+        track.mode = 'showing';
 
         // Adjust volume
         volumeControl.addEventListener('input', (event) => {
