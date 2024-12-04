@@ -44,7 +44,6 @@
             width: 100%;
             margin: 10px 0;
         }
-        /* Subtitles Box Styling */
         #subtitles {
             margin-top: 10px;
             font-size: 14px;
@@ -63,7 +62,7 @@
 <body>
     <div class="audio-player">
         <h2>PMC Tech: What is a Point Cloud? Click Play...</h2>
-        <audio id="audio" src="https://jtauchus.github.io/PMC-HarvesterEnergyCenter/media/Scene%201%20Narration.wav" controls></audio>
+        <audio id="audio" src="https://jtauchus.github.io/PMC-HarvesterEnergyCenter/media/Scene%201%20Narration.mp3" controls></audio>
         <div>
             <label for="volume-control">Volume:</label>
             <input type="range" id="volume-control" min="0" max="1" step="0.1" value="0.5">
@@ -72,12 +71,11 @@
     </div>
 
     <script>
-        // Subtitles Data
         const subtitles = [
-            { start: 0, end: 2, text: "You are looking at a point cloud created with Reality Capture." },
-            { start: 2, end: 5, text: "This technology collects precise spatial data from a facility." },
-            { start: 5, end: 8, text: "The point cloud forms the foundation for creating a BIM model." },
-            { start: 8, end: 11, text: "Click the hotspot to see how the scan transforms into a 3D design." }
+            { start: 0, end: 3.336, text: "You're looking at a point cloud created with Reality Capture." },
+            { start: 3.336, end: 8.187, text: "This detailed scan provides the foundation for generating an accurate digital model." },
+            { start: 8.187, end: 15.091, text: "By combining point cloud data with drawing sources, the final design ensures precision and reliability." },
+            { start: 15.091, end: 21.328, text: "Click the floor hotspot to see the transformation from raw data to a fully realized model." }
         ];
 
         const audio = document.getElementById('audio');
@@ -94,12 +92,6 @@
         // Adjust volume
         volumeControl.addEventListener('input', (event) => {
             audio.volume = event.target.value;
-        });
-
-        // Disable playback speed options (by removing default controls)
-        audio.addEventListener('loadedmetadata', () => {
-            // Ensure any custom browser playback speed options are suppressed
-            audio.controlsList = 'nodownload noplaybackrate';
         });
     </script>
 </body>
