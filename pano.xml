@@ -23,7 +23,7 @@
       <hotspot url="{node9}" id="Point04" target="$fwd" skinid="ht_node" pan="-92.0643" title="" tilt="0" description=""/>
     </hotspots>
     <media>
-      <webelement rotx="5.780" tilt="16.860" hidepinned="0" rotz="0.640" width="450" popoutscaling="100" handcursor="0" popbackmode="0" fov="42.730" roty="-2.340" clickmode="0" pan="-121.650" permeable="0" stretch="1.214" height="600" id="Element01" code="&lt;iframe &#xa;    src=&quot;https://jtauchus.github.io/PMC-HarvesterEnergyCenter/media/AudioVideoPage.html&quot; &#xa;    width=&quot;450&quot; &#xa;    height=&quot;600&quot; &#xa;    style=&quot;border:none;&quot;>&#xa;&lt;/iframe>&#xa;"/>
+      <webelement rotx="-12.220" tilt="3.570" hidepinned="0" rotz="0.640" width="450" popoutscaling="100" handcursor="0" popbackmode="0" fov="42.730" roty="-12.340" clickmode="0" pan="-122.070" permeable="0" stretch="1.214" height="600" id="Element01" code="&lt;iframe &#xa;    src=&quot;https://jtauchus.github.io/PMC-HarvesterEnergyCenter/AudioVideoPage.html&quot; &#xa;    width=&quot;450&quot; &#xa;    height=&quot;600&quot; &#xa;    style=&quot;border:none;&quot;>&#xa;&lt;/iframe>"/>
       <sound loop="-1" url="media/skin_snd_Scene 1 Narration.mp3" id="Scene 1 Narration" keep="1" mode="7" level="1.000"/>
     </media>
     <transition zoomin="0" blendcolor="0x000000" zoomout="0" blendtime="1" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40"/>
