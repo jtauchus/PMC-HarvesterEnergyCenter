@@ -195,7 +195,7 @@
       <label textalpha="1" backgroundalpha="1" height="20" bordercolor="0x000000" border="1" width="180" textcolor="0x000000" borderradius="1" enabled="1" background="1" backgroundcolor="0xffffff" borderalpha="1" wordwrap="1"/>
       <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
       <hotspot url="{node13}" id="Point01" target="$fwd" skinid="ht_node" pan="123.625" title="" tilt="0" description=""/>
-      <hotspot url="{node8}" id="Point02" target="$fwd" skinid="ht_node" pan="23.07" title="Outside the office" tilt="0" description=""/>
+      <hotspot url="{node8}" id="Point02" target="$fwd" skinid="ht_node" pan="23.07" title="Rendered Record model" tilt="0" description="This location shows a video rendering of record model level Digital Twin"/>
       <hotspot url="{node15}" id="Point03" target="" skinid="ht_node" pan="-342.37" title="Turn off the model" tilt="-19.46" description=""/>
     </hotspots>
     <media>
