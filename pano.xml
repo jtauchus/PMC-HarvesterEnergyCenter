@@ -23,9 +23,7 @@
       <hotspot url="{node9}" id="Point04" target="$fwd" skinid="ht_node" pan="-92.0643" title="" tilt="0" description=""/>
     </hotspots>
     <media>
-      <video startmutedmobile="0" rotx="-4.910" level="1.000" nodechangekeep="0" tilt="5.040" hidepinned="0" tiltsize="10.000" rotz="-0.110" width="1920" mode="3" popoutscaling="100" handcursor="1" pansize="10.000" popbackmode="1" fov="39.360" roty="-5.250" clickmode="4" pan="-118.860" ambientlevel="0.000" stretch="1.052" loop="1" height="1080" id="Element01" field="90.000">
-        <source url="media/PMC MEP modeling.mp4"/>
-      </video>
+      <webelement rotx="5.780" tilt="16.440" hidepinned="0" rotz="0.640" width="450" popoutscaling="100" handcursor="0" popbackmode="0" fov="42.730" roty="-2.340" clickmode="0" pan="-121.650" permeable="0" stretch="1.214" height="600" id="Element01" code="&lt;iframe &#xa;    src=&quot;https://jtauchus.github.io/PMC-HarvesterEnergyCenter/media/AudioVideoPage.html&quot; &#xa;    width=&quot;450&quot; &#xa;    height=&quot;600&quot; &#xa;    style=&quot;border:none;&quot;>&#xa;&lt;/iframe>&#xa;"/>
       <sound loop="-1" url="media/skin_snd_Scene 1 Narration.mp3" id="Scene 1 Narration" keep="1" mode="7" level="1.000"/>
     </media>
     <transition zoomin="0" blendcolor="0x000000" zoomout="0" blendtime="1" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40"/>
