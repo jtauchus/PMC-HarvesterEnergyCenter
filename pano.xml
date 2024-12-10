@@ -53,9 +53,7 @@
       <hotspot url="{node10}" id="Point04" target="$fwd" skinid="ht_node" pan="-30.4026" title="" tilt="0" description=""/>
     </hotspots>
     <media>
-      <video startmutedmobile="0" rotx="0.000" level="1.000" nodechangekeep="0" tilt="2.230" hidepinned="0" tiltsize="10.000" rotz="0.000" width="1920" mode="3" popoutscaling="100" handcursor="1" pansize="10.000" popbackmode="1" fov="30.000" roty="0.000" clickmode="4" pan="-65.220" ambientlevel="0.000" stretch="1.000" loop="1" height="1080" id="Element01" field="90.000">
-        <source url="media/Energy Center Digital Twin Data.mp4"/>
-      </video>
+      <webelement rotx="-2.000" tilt="2.190" hidepinned="0" rotz="0.000" width="450" popoutscaling="100" handcursor="0" popbackmode="0" fov="30.000" roty="-15.000" clickmode="0" pan="-60.890" permeable="0" stretch="1.000" height="600" id="Element01" code="&lt;iframe &#xa;    src=&quot;https://jtauchus.github.io/PMC-HarvesterEnergyCenter/DataStreamPage.html&quot; &#xa;    width=&quot;450&quot; &#xa;    height=&quot;600&quot; &#xa;    style=&quot;border:none;&quot;>&#xa;&lt;/iframe>"/>
       <sound loop="-1" url="media/skin_snd_Scene 1 Narration.mp3" id="Scene 1 Narration" keep="1" mode="7" level="1.000"/>
     </media>
     <transition zoomin="0" blendcolor="0x000000" zoomout="0" blendtime="1" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40"/>
@@ -86,6 +84,7 @@
       <image popbackmode="0" fov="63.094" rotx="0.790" roty="-4.695" clickmode="0" pan="-138.014" tilt="1.040" hidepinned="0" stretch="0.996" rotz="0.163" height="776" id="Element01" width="1050" popoutscaling="100" handcursor="0">
         <source url="media/msedge_xJ9T3Gjkmu.png"/>
       </image>
+      <webelement rotx="0.000" tilt="20.910" hidepinned="0" rotz="0.000" width="450" popoutscaling="100" handcursor="0" popbackmode="0" fov="30.000" roty="0.000" clickmode="0" pan="-160.760" permeable="0" stretch="1.000" height="300" id="Element02" code="&lt;iframe &#xa;    src=&quot;https://jtauchus.github.io/PMC-HarvesterEnergyCenter/LegacyDrawings.html&quot; &#xa;    width=&quot;450&quot; &#xa;    height=&quot;300&quot; &#xa;    style=&quot;border:none;&quot;>&#xa;&lt;/iframe>&#xa;"/>
       <sound loop="-1" url="media/skin_snd_Scene 1 Narration.mp3" id="Scene 1 Narration" keep="1" mode="7" level="1.000"/>
     </media>
     <transition zoomin="0" blendcolor="0x000000" zoomout="0" blendtime="1" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" enabled="1" zoomspeed="2" zoomafterinfov="140" zoomafteroutfov="40"/>
