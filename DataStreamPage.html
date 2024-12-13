@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: transparent; /* Fully transparent background */
+            background-color: transparent;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -16,7 +16,7 @@
             margin: 0;
         }
         .container {
-            background: rgba(255, 255, 255, 0.2); /* Semi-transparent container */
+            background: rgba(255, 255, 255, 0.2);
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -30,18 +30,13 @@
         }
         #subtitles {
             font-size: 14px;
-            color: #000; /* Fully opaque text for subtitles */
-            background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+            color: #000;
+            background: rgba(255, 255, 255, 0.2);
             padding: 10px;
             border-radius: 5px;
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
             text-align: center;
             margin-bottom: 15px;
-        }
-        video {
-            width: 100%;
-            border-radius: 8px;
-            margin-bottom: 20px;
         }
         .audio-controls {
             margin-top: 15px;
@@ -49,6 +44,20 @@
         .audio-controls input[type="range"] {
             width: 100%;
             margin-top: 10px;
+        }
+        .info-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 15px;
+            font-size: 14px;
+            color: #fff;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .info-link:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -65,6 +74,8 @@
             <label for="volume-control">Adjust Volume:</label>
             <input type="range" id="volume-control" min="0" max="1" step="0.1" value="0.5">
         </div>
+        <!-- CTA Link -->
+        <a href="https://pmcorp.com/consultation/" class="info-link" target="_blank">Contact PMC for More Information</a>
     </div>
 
     <script>
@@ -80,14 +91,12 @@
         const subtitlesDiv = document.getElementById('subtitles');
         const volumeControl = document.getElementById('volume-control');
 
-        // Synchronize subtitles with audio narration
         audio.addEventListener('timeupdate', () => {
             const currentTime = audio.currentTime;
             const currentSubtitle = subtitles.find(sub => currentTime >= sub.start && currentTime <= sub.end);
             subtitlesDiv.textContent = currentSubtitle ? currentSubtitle.text : '';
         });
 
-        // Adjust audio volume
         volumeControl.addEventListener('input', (event) => {
             audio.volume = event.target.value;
         });
