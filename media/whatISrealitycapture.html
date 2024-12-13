@@ -3,108 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PMC Tech: What is a Point Cloud?</title>
+    <title>What is Reality Capture?</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: transparent; /* Fully transparent background */
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            flex-direction: column;
+            min-height: 100vh;
             margin: 0;
         }
-        .audio-player {
-            background: #fff;
+        .container {
+            background: rgba(255, 255, 255, 0.2); /* Semi-transparent container */
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             text-align: center;
             width: 400px;
         }
-        .audio-player h2 {
+        .container h1 {
             font-size: 18px;
             color: #333;
             margin-bottom: 10px;
         }
-        .audio-player button {
-            background: #007BFF;
-            border: none;
-            color: #fff;
-            padding: 10px 15px;
-            margin: 5px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .audio-player button:hover {
-            background: #0056b3;
-        }
-        .audio-player input[type="range"] {
-            width: 100%;
-            margin: 10px 0;
-        }
         #subtitles {
-            margin-top: 10px;
             font-size: 14px;
-            font-family: Arial, sans-serif;
-            color: #333;
-            background: #f9f9f9;
-            padding: 8px;
+            color: #000; /* Fully opaque text for subtitles */
+            background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+            padding: 10px;
             border-radius: 5px;
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-            display: inline-block;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
             text-align: center;
-            width: 100%;
+            margin-bottom: 15px;
         }
-        .info-link {
-            display: inline-block;
+        .audio-controls {
             margin-top: 15px;
-            padding: 10px 15px;
-            font-size: 14px;
-            color: #fff;
-            background-color: #007BFF;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
         }
-        .info-link:hover {
-            background-color: #0056b3;
+        .audio-controls input[type="range"] {
+            width: 100%;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="audio-player">
-        <h2>PMC Tech: What is a Point Cloud? Click Play...</h2>
+    <div class="container">
+        <h1>What is Reality Capture?</h1>
+        <div id="subtitles"></div>
         <audio id="audio" src="https://jtauchus.github.io/PMC-HarvesterEnergyCenter/media/Scene%201%20Narration.mp3" controls></audio>
-        <div>
-            <label for="volume-control">Volume:</label>
+        <div class="audio-controls">
+            <label for="volume-control">Adjust Volume:</label>
             <input type="range" id="volume-control" min="0" max="1" step="0.1" value="0.5">
         </div>
-        <div id="subtitles"></div>
-        <a class="info-link" href="https://pmcorp.com/consultation/" target="_blank">Request More Information</a>
     </div>
 
     <script>
         const subtitles = [
-            { start: 0, end: 3.336, text: "You're looking at a point cloud created with Reality Capture." },
-            { start: 3.336, end: 8.187, text: "This detailed scan provides the foundation for generating an accurate digital model." },
-            { start: 8.187, end: 15.091, text: "By combining point cloud data with drawing sources, the final design ensures precision and reliability." },
-            { start: 15.091, end: 21.328, text: "Click the floor hotspot to see the transformation from raw data to a fully realized model." }
+            { start: 0.000, end: 3.000, text: "You're looking at a point cloud created with Reality Capture." },
+            { start: 3.001, end: 6.000, text: "This detailed scan provides the foundation for generating an accurate digital model." },
+            { start: 6.001, end: 10.000, text: "By combining point cloud data with drawing sources, the final design ensures precision and reliability." },
+            { start: 10.001, end: 13.000, text: "Click the floor hotspot to see the transformation from raw data to a fully realized model." }
         ];
 
         const audio = document.getElementById('audio');
         const subtitlesDiv = document.getElementById('subtitles');
         const volumeControl = document.getElementById('volume-control');
 
-        // Update subtitles dynamically based on audio playback time
+        // Synchronize subtitles with audio narration
         audio.addEventListener('timeupdate', () => {
             const currentTime = audio.currentTime;
             const currentSubtitle = subtitles.find(sub => currentTime >= sub.start && currentTime <= sub.end);
             subtitlesDiv.textContent = currentSubtitle ? currentSubtitle.text : '';
         });
 
-        // Adjust volume
+        // Adjust audio volume
         volumeControl.addEventListener('input', (event) => {
             audio.volume = event.target.value;
         });
