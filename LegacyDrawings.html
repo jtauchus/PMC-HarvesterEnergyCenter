@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: transparent; /* Makes the body background transparent */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -16,7 +16,7 @@
             margin: 0;
         }
         .container {
-            background: #fff;
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -31,7 +31,7 @@
         #subtitles {
             font-size: 14px;
             color: #333;
-            background: #f9f9f9;
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for subtitles */
             padding: 10px;
             border-radius: 5px;
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
@@ -74,12 +74,11 @@
 
     <script>
         const subtitles = [
-            { start: 0.000, end: 4.000, text: "Legacy drawings provide critical information that laser scans alone cannot capture." },
-            { start: 4.000, end: 9.000, text: "While reality capture injects spatial accuracy into a digital twin, legacy drawings add context." },
-            { start: 9.000, end: 14.000, text: "They include design intent, construction details, and system layouts that may not be physically visible." },
-            { start: 14.000, end: 20.000, text: "These drawings, combined with facility management databases, complete the foundational level for normalized models." },
-            { start: 20.000, end: 25.000, text: "This integration ensures the model is spatially accurate and enriched with enterprise-level data." },
-            { start: 25.000, end: 30.000, text: "By combining legacy data with reality capture, we create a comprehensive resource for operations and decision-making." }
+            { start: 0.000, end: 6.765, text: "Legacy drawings, like the one displayed here, provide critical information that laser scans alone cannot capture." },
+            { start: 6.765, end: 19.943, text: "While reality capture injects spatial accuracy into a digital twin, legacy drawings add context, such as design intent, construction details, and system layouts that may not be physically visible." },
+            { start: 19.943, end: 28.297, text: "These drawings, combined with facility management databases, help complete the foundational level required for normalized and aligned models." },
+            { start: 28.297, end: 38.945, text: "This integration ensures the model is not only spatially accurate but also enriched with enterprise-level data, essential for managing commercial buildings and manufacturing facilities." },
+            { start: 38.945, end: 48.088, text: "By combining legacy data with modern reality capture, we create a comprehensive and actionable resource for operations, maintenance, and decision-making." }
         ];
 
         const audio = document.getElementById('audio');
