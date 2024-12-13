@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: transparent;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -16,32 +16,34 @@
             margin: 0;
         }
         .container {
-            background: #fff;
+            background: rgba(255, 255, 255, 0.2);
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             text-align: center;
-            width: 400px;
+            width: 380px; /* Explicitly fit within the iframe */
         }
         .container h1 {
             font-size: 18px;
             color: #333;
             margin-bottom: 10px;
         }
-        .container video {
-            width: 100%;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
         #subtitles {
             font-size: 14px;
-            color: #333;
-            background: #f9f9f9;
+            color: #000;
+            background: rgba(255, 255, 255, 0.2);
             padding: 10px;
             border-radius: 5px;
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
             text-align: center;
             margin-bottom: 15px;
+        }
+        video {
+            width: 100%;
+            max-width: 360px; /* Constrain width */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 8px;
+            margin-bottom: 20px;
         }
         .audio-controls {
             margin-top: 15px;
@@ -79,6 +81,8 @@
             <label for="volume-control">Adjust Volume:</label>
             <input type="range" id="volume-control" min="0" max="1" step="0.1" value="0.5">
         </div>
+        <!-- CTA Link -->
+        <a href="https://pmcorp.com/consultation/" class="info-link" target="_blank">Contact PMC for More Information</a>
     </div>
 
     <script>
@@ -87,21 +91,19 @@
             { start: 6.369, end: 17.057, text: "By integrating real-time sensor data, events, and analytics through cloud platforms like Autodesk Tandem, this model delivers dynamic, actionable insights." },
             { start: 17.057, end: 28.085, text: "Facilities managers gain real-time visibility into energy usage, system performance, and environmental conditions, enabling proactive maintenance and streamlined operations." },
             { start: 28.085, end: 33.769, text: "Predictive analytics enhance decision-making, reducing downtime and driving efficiency." },
-            { start: 33.769, end: 40.032, text: "Explore how this integration elevates facility management to new levels of precision and performance. " }
+            { start: 33.769, end: 40.032, text: "Explore how this integration elevates facility management to new levels of precision and performance." }
         ];
 
         const audio = document.getElementById('audio');
         const subtitlesDiv = document.getElementById('subtitles');
         const volumeControl = document.getElementById('volume-control');
 
-        // Synchronize subtitles with audio narration
         audio.addEventListener('timeupdate', () => {
             const currentTime = audio.currentTime;
             const currentSubtitle = subtitles.find(sub => currentTime >= sub.start && currentTime <= sub.end);
             subtitlesDiv.textContent = currentSubtitle ? currentSubtitle.text : '';
         });
 
-        // Adjust audio volume
         volumeControl.addEventListener('input', (event) => {
             audio.volume = event.target.value;
         });
