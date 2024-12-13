@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: transparent; /* Fully transparent background */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -16,10 +16,10 @@
             margin: 0;
         }
         .container {
-            background: #fff;
+            background: rgba(255, 255, 255, 0.2); /* Semi-transparent container */
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             text-align: center;
             width: 400px;
         }
@@ -28,20 +28,20 @@
             color: #333;
             margin-bottom: 10px;
         }
-        .container video {
+        #subtitles {
+            font-size: 14px;
+            color: #000; /* Fully opaque text for subtitles */
+            background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        video {
             width: 100%;
             border-radius: 8px;
             margin-bottom: 20px;
-        }
-        #subtitles {
-            font-size: 14px;
-            color: #333;
-            background: #f9f9f9;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-            text-align: center;
-            margin-bottom: 15px;
         }
         .audio-controls {
             margin-top: 15px;
@@ -49,20 +49,6 @@
         .audio-controls input[type="range"] {
             width: 100%;
             margin-top: 10px;
-        }
-        .info-link {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 10px 15px;
-            font-size: 14px;
-            color: #fff;
-            background-color: #007BFF;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-        .info-link:hover {
-            background-color: #0056b3;
         }
     </style>
 </head>
@@ -87,7 +73,7 @@
             { start: 6.369, end: 17.057, text: "By integrating real-time sensor data, events, and analytics through cloud platforms like Autodesk Tandem, this model delivers dynamic, actionable insights." },
             { start: 17.057, end: 28.085, text: "Facilities managers gain real-time visibility into energy usage, system performance, and environmental conditions, enabling proactive maintenance and streamlined operations." },
             { start: 28.085, end: 33.769, text: "Predictive analytics enhance decision-making, reducing downtime and driving efficiency." },
-            { start: 33.769, end: 40.032, text: "Explore how this integration elevates facility management to new levels of precision and performance. " }
+            { start: 33.769, end: 40.032, text: "Explore how this integration elevates facility management to new levels of precision and performance." }
         ];
 
         const audio = document.getElementById('audio');
